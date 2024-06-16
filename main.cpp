@@ -1,15 +1,38 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
+#include <cstdio>
+#include "shapes.h"
 
 int main()
 {
     sf::RenderWindow window(sf::VideoMode(640, 640), "Tetroid");
-    
-    sf::RectangleShape RectangleShape(sf::Vector2(250.f, 250.f));
-    RectangleShape.setFillColor(sf::Color(225, 255, 210, 255));
 
-    sf::CircleShape CircleShape(100.f);
-    CircleShape.setFillColor(sf::Color::Blue);
+    shapesGameBorderFunction();
+
+    sf::Font GameFont;
+    if (!GameFont.loadFromFile("arial.ttf")) {
+        printf("Error loading fonts!");
+        return -1;
+    }
+
+    void TextGameName();
+
+    sf::Text GameName;
+    GameName.setFont(GameFont);
+    GameName.setString("TETROID");
+    GameName.setCharacterSize(64);
+    GameName.setStyle(sf::Text::Bold);
+    GameName.setPosition(200, 25);
+    GameName.setFillColor(sf::Color::White);
+
+    sf::Music music;
+    if (!music.openFromFile("gamemusic.wav")) {
+        printf("error loading music!");
+        return -1;
+    }
+
+    /*music.setLoop(true);
+    music.play();*/
 
     while (window.isOpen())
     {
@@ -21,7 +44,8 @@ int main()
         }
         
         window.clear();
-        window.draw(RectangleShape);
+        window.draw(ShapesGameBorder);
+        window.draw(GameName);
         window.display();
     }
 

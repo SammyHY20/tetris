@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\4 Projects\\1 Programming\\2 C\u002B\u002B\\0 Projects\\Tetris\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D45CA594-37C8-4178-9B93-6E53520168AF}|Tetris.vcxproj|C:\\4 Projects\\1 Programming\\2 C\u002B\u002B\\0 Projects\\Tetris\\music.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D45CA594-37C8-4178-9B93-6E53520168AF}|Tetris.vcxproj|solutionrelative:music.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D45CA594-37C8-4178-9B93-6E53520168AF}|Tetris.vcxproj|C:\\4 Projects\\1 Programming\\2 C\u002B\u002B\\0 Projects\\Tetris\\shapes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D45CA594-37C8-4178-9B93-6E53520168AF}|Tetris.vcxproj|solutionrelative:shapes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D45CA594-37C8-4178-9B93-6E53520168AF}|Tetris.vcxproj|C:\\4 Projects\\1 Programming\\2 C\u002B\u002B\\0 Projects\\Tetris\\shapes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D45CA594-37C8-4178-9B93-6E53520168AF}|Tetris.vcxproj|solutionrelative:shapes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D45CA594-37C8-4178-9B93-6E53520168AF}|Tetris.vcxproj|C:\\4 Projects\\1 Programming\\2 C\u002B\u002B\\0 Projects\\Tetris\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +30,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "music.h",
-              "DocumentMoniker": "C:\\4 Projects\\1 Programming\\2 C\u002B\u002B\\0 Projects\\Tetris\\music.h",
-              "RelativeDocumentMoniker": "music.h",
-              "ToolTip": "C:\\4 Projects\\1 Programming\\2 C\u002B\u002B\\0 Projects\\Tetris\\music.h",
-              "RelativeToolTip": "music.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "shapes.h",
+              "DocumentMoniker": "C:\\4 Projects\\1 Programming\\2 C\u002B\u002B\\0 Projects\\Tetris\\shapes.h",
+              "RelativeDocumentMoniker": "shapes.h",
+              "ToolTip": "C:\\4 Projects\\1 Programming\\2 C\u002B\u002B\\0 Projects\\Tetris\\shapes.h",
+              "RelativeToolTip": "shapes.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-15T02:14:37.593Z",
+              "WhenOpened": "2024-06-16T04:47:36.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "shapes.cpp",
+              "DocumentMoniker": "C:\\4 Projects\\1 Programming\\2 C\u002B\u002B\\0 Projects\\Tetris\\shapes.cpp",
+              "RelativeDocumentMoniker": "shapes.cpp",
+              "ToolTip": "C:\\4 Projects\\1 Programming\\2 C\u002B\u002B\\0 Projects\\Tetris\\shapes.cpp",
+              "RelativeToolTip": "shapes.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-16T04:47:26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\4 Projects\\1 Programming\\2 C\u002B\u002B\\0 Projects\\Tetris\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\4 Projects\\1 Programming\\2 C\u002B\u002B\\0 Projects\\Tetris\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-14T10:24:25.92Z",
               "EditorCaption": ""

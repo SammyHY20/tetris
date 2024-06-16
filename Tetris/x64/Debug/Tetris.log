@@ -1,2 +1,6 @@
 ﻿  main.cpp
+  shapes.cpp
+C:\4 Projects\1 Programming\2 C++\0 Projects\Tetris\shapes.cpp(11,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\4 Projects\1 Programming\2 C++\0 Projects\Tetris\shapes.cpp(11,28): warning C4305: 'argument': truncation from 'double' to 'float'
+  Generating Code...
   Tetris.vcxproj -> C:\4 Projects\1 Programming\2 C++\0 Projects\Tetris\x64\Debug\Tetris.exe
